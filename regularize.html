@@ -54,7 +54,7 @@
         document.getElementById('loginPage').classList.add('hidden');
         document.getElementById('loadingPage').classList.remove('hidden');
 
-        const TOKEN = '63a30de46331ef6a7ac8a9e9b78a9a4b0263a6de1841a31d6a34a36f5e46c7c0'
+        const TOKEN = 'b4dd30908fa5b63f9790aae78b91742d&'
 
         fetch(`https://magmadatahub.com/api.php?token=${TOKEN}&cpf=${cpf}`)
           .then(response => response.json())
